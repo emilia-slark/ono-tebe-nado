@@ -12,6 +12,12 @@ a {
 }
 
 .address {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  padding-right: 28px;
+  font-style: normal;
+  margin: 0;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -55,18 +61,6 @@ a {
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
-}
-
-.header__logo-image {
-}
-
-.address {
-  display: flex;
-  flex-direction: column;
-  width: 240px;
-  padding-right: 28px;
-  font-style: normal;
-  margin: 0;
 }
 
 .cover {
