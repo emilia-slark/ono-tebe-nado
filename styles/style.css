@@ -16,12 +16,10 @@ a {
   flex-direction: column;
   width: 240px;
   padding-right: 28px;
-  font-style: normal;
   margin: 0;
+  font-style: normal;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
-  margin: 0;
   line-height: 24.3px;
 }
 
@@ -57,7 +55,7 @@ a {
 }
 
 .header__logo {
-  min-width: 140px;
+  min-width: 136px;
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
@@ -199,7 +197,7 @@ a {
 
 .lots__look-more-link {
   padding-left: 40px;
-  padding-top: 30px; 
+  padding-top: 30px;
   font-size: 20px;
 }
 
