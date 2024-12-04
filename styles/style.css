@@ -273,10 +273,10 @@ a {
 }
 
 .footer {
-  /*padding-top тоже на глаз, вообще - макет очень сложный, везде разные отступы и расстояния*/
-  padding: 180px 25px 88px;
+  /*padding тоже на глаз, вообще - макет очень сложный, везде разные отступы и расстояния*/
+  padding: 181px 25px 88px;
   display: grid;
-  grid-template-columns: 1fr 152px 1fr;
+  grid-template-columns: 1fr 155px 1fr;
   grid-template-rows: auto;
   align-items: start;
 }
@@ -290,7 +290,7 @@ a {
 }
 
 .footer__social-list {
-  padding-left: 185px;
+  padding-left: 182px;
   padding-right: 25px;
   display: flex;
   justify-content: space-between;
