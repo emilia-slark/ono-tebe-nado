@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="images/logo-black.svg" />
     <link rel="stylesheet" href="fonts/fonts.css" />
-    <link rel="style" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
@@ -25,114 +25,125 @@
           </li>
         </ul>
       </nav>
-      <div class="header__logo">
-        <a href="#"
-          ><img src="images/logo-black.svg" alt=""
-        /></a>
-      </div>
+      <a class="header__logo"
+        ><img src="images/logo-black.svg" alt="Логотип сервиса Оно Тебе Надо"
+      /></a>
       <address class="address">
-        <a class="address-text" href="tel:+99995555555">+9 999 555 5555</a>
-        <a class="address-text" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <p class="address-text">наб. Принсенграхт 263-<br />265, Амстердам</p>
+        <a class="address__text" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="address__text" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p class="address__text">наб. Принсенграхт 263-<br />265, Амстердам</p>
       </address>
     </header>
     <main>
-      <div class="cover">
+      <section class="cover">
         <div class="overlay">
           <h1 class="cover__title">
             <span class="aligned-text"
-              >О<span class="letter-spacing-extended">Н</span
-              ><span class="no-letter-spacing">О</span></span
+              >о<span class="letter-spacing-extended">н</span
+              ><span class="no-letter-spacing">о</span></span
             >
             <span class="aligned-text aligned-text_center"
-              >ТЕ<span class="letter-spacing-extended">Б</span
-              ><span class="no-letter-spacing">Е</span></span
+              >те<span class="letter-spacing-extended">б</span
+              ><span class="no-letter-spacing">е</span></span
             >
             <span class="aligned-text aligned-text_right"
-              ><span class="letter-spacing-extended">Н</span>АД<span
+              ><span class="letter-spacing-extended">н</span>ад<span
                 class="no-letter-spacing"
-                >О</span
+                >о</span
               ></span
             >
           </h1>
           <div class="cover__description">
-            <h2 class="cover__description cover__description-text">
+            <p class="cover__description__text">
               Аукцион вещей, в которые никто не верил
-            </h2>
+            </p>
             <a href="" class="cover__description bet-button">
               сделать ставку
             </a>
           </div>
         </div>
-      </div>
-      <article class="lots">
+      </section>
+      <section class="lots">
         <h2 class="lots__heading">лоты</h2>
         <ul class="lots__card-list">
-          <li class="lots__card-list-item">
-            <img class="card_type_image" src="images/card-lot-01.jpg" alt="" />
-            <div class="card overlay">
-              <a class="card-title" href="#">
-                Фильм режиссёра, который бросил киношколу
+          <li class="lots__card-list-item card_type_film">
+            <div class="overlay">
+              <a class="card no-letter-spacing" href="#">
+                <article class="card-description">
+                  <h3 class="card-description__title">
+                    Фильм режиссёра, который бросил киношколу
+                  </h3>
+                  <p class="card-description__text">
+                    Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                    ставка, если бы вы не знали, что режиссёр — Пол Томас
+                    Андерсон?
+                  </p>
+                </article>
               </a>
-              <span>
-                Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-                ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
-              </span>
             </div>
           </li>
-          <li class="lots__card-list-item">
-            <img class="card_type_image" src="images/card-lot-02.jpg" alt="" />
-            <div class="card overlay">
-              <a class="card-title" href="#">
-                Книга, где описан один скучный день из жизни рекламного агента
+          <li class="lots__card-list-item card_type_book">
+            <div class="overlay">
+              <a class="card no-letter-spacing" href="#">
+                <article class="card-description">
+                  <h3 class="card-description__title">
+                    Книга, где описан один скучный день из жизни рекламного
+                    агента
+                  </h3>
+                  <p class="card-description__text">
+                    Объёмом почти в тысячу страниц. Иногда без знаков препинания
+                    и с переходами на древнеанглийский. В ней одновременно
+                    рассказывается о 16 июня 1904 года и об истории литературы,
+                    начиная с античных времён. И это всё накладывается на
+                    эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
+                    Джеймса Джойса?
+                  </p>
+                </article>
               </a>
-              <span>
-                Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
-                переходами на древнеанглийский. В ней одновременно
-                рассказывается о 16 июня 1904 года и об истории литературы,
-                начиная с античных времён. И это всё накладывается на эпическую
-                поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса
-                Джойса?
-              </span>
             </div>
           </li>
-          <li class="lots__card-list-item">
-            <img class="card_type_image" src="images/card-lot-03.jpg" alt="" />
-            <div class="card overlay">
-              <a class="card-title" href="#">
-                Картина, которую повторит даже 5-летний сын маминой подруги
+          <li class="lots__card-list-item card_type_picture">
+            <div class="overlay">
+              <a class="card no-letter-spacing" href="#">
+                <article class="card-description">
+                  <h3 class="card-description__title">
+                    Картина, которую повторит даже 5-летний сын маминой подруги
+                  </h3>
+                  <p class="card-description__text">
+                    Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                    что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                    котиков... Сколько бы вы на такое поставили, если бы не
+                    знали, что это — одна из революционных работ Кандинского?
+                  </p>
+                </article>
               </a>
-              <span>
-                Ну действительно, там линия, тут кружочек, а здесь и вовсе
-                что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
-                котиков... Сколько бы вы на такое поставили, если бы не знали,
-                что это — одна из революционных работ Кандинского?
-              </span>
             </div>
           </li>
         </ul>
-        <a class="lots__look-more-link" href="">посмотреть больше</a>
-      </article>
+        <a class="lots__look-more-link no-letter-spacing" href=""
+          >посмотреть больше</a
+        >
+      </section>
       <section class="about">
         <div class="about__logo-center">
           <div class="about__logo">
             <img
               class="about__logo-image"
               src="images/logo-white.svg"
-              alt="Логотип Оно тебе надо"
+              alt="Логотип сервиса Оно Тебе Надо"
             />
           </div>
         </div>
-        <h1 class="about__title">Об аукционе</h1>
+        <h2 class="about__title">Об аукционе</h2>
         <div class="about__text">
-          <p class="about__text-margin">
-            Здесь вы не встретите очередное пафосное собрание <span class="about__text-space-letter">невероятно
-            дорогого антиквариата.</span> Наши лоты вообще не должны были попасть ни на
+          <p class="about__text_margin">
+            Здесь вы не встретите очередное пафосное собрание невероятно
+            дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
             один аукцион. Потому что кому нужен дневник девочки-подростка или
             картина, которую может нарисовать даже ребёнок? Кому нужны все эти
             странные вещи, созданные любителями?
           </p>
-          <p class="about__text-margin about__text-space-letter">
+          <p class="about__text_margin">
             Слишком сложные или, наоборот, слишком простые. Опережающие своё
             время. В пух и прах растерзанные критиками. Непринятые и непонятые.
             Когда-то они казались просто неудачными. Но, несмотря на критику,
@@ -144,10 +155,10 @@
       </section>
     </main>
     <footer class="footer">
-      <address class="address">
-        <a class="address-text" href="tel:+99995555555">+9 999 555 5555</a>
-        <a class="address-text" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <p class="address-text">наб. Принсенграхт 263-<br />265, Амстердам</p>
+      <address class="address footer__list-address">
+        <a class="address__text" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="address__text" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p class="address__text">наб. Принсенграхт 263-<br />265, Амстердам</p>
       </address>
       <nav>
         <ul class="footer__menu">
@@ -162,26 +173,35 @@
           </li>
         </ul>
       </nav>
-      <div class="footer__social-list">
-        <a href="#"
-          ><img
-            class="footer__social-list-item"
-            src="images/yt.svg"
-            alt="YouTube Social Link"
-        /></a>
-        <a href="#"
-          ><img
-            class="footer__social-list-item"
-            src="images/vk.svg"
-            alt="VK Social Link"
-        /></a>
-        <a href="#"
-          ><img
-            class="footer__social-list-item"
-            src="images/pinterest.svg"
-            alt="Pinterest Social Link"
-        /></a>
-      </div>
+      <ul class="footer__social-list">
+        <li>
+          <a href=""
+            ><img
+              class="footer__social-list-item"
+              src="images/yt.svg"
+              alt="Логотип YouTube"
+              target="_blank"
+          /></a>
+        </li>
+        <li>
+          <a href=""
+            ><img
+              class="footer__social-list-item"
+              src="images/vk.svg"
+              alt="Логотип ВКонтакте"
+              target="_blank"
+          /></a>
+        </li>
+        <li>
+          <a href=""
+            ><img
+              class="footer__social-list-item"
+              src="images/pinterest.svg"
+              alt="Логотип Pinterest"
+              target="_blank"
+          /></a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
