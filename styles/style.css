@@ -13,9 +13,8 @@ a {
   align-items: center;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  height: 105px;
   justify-content: space-between;
-  padding: 93px 24px 95px;
+  padding: 93px 24px 91px;
 }
 
 .header__links-list {
@@ -164,7 +163,7 @@ a {
 .lots__card-list-item {
   background-position: center;
   background-size: cover;
-  min-height: min-content;
+  min-height: 563px;
 }
 
 .card_type_film {
@@ -236,7 +235,7 @@ a {
 }
 
 .about__logo-image {
-  max-width: 149.54px;
+  max-width: 147.54px;
 }
 
 .about__title {
